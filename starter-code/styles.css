@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  text-align: left;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+h2 {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+#benefits h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.heart {
+  vertical-align: sub;
+  margin:auto 20px;
+}
+
+.acronym {
+  vertical-align: sub;
+  margin:auto 20px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  height: 30px;
+  font-weight: lighter;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: sub;
+}
+
+header {
+  height: 420px;
+  background-image: URL("images/city-scape.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.logo {
+  height: 70%;
+  width:120px;
+  padding-left: 20px;
+  position:relative;
+  float:left;
+  padding-top: 15px;
+}
+
+.bear {
+  padding-right:25px;
+  padding-top:10px;
+  height:100%;
+  width:50px;
+  float: right;
+}
+
+input {
+  font-size: 16px;
+  font-weight: lighter;
+  position: absolute;
+  top:15px;
+  left: 15px;
+  margin-left: 5px;
+  background-color: rgb(31, 82, 111);
+  padding-left: 10px;
+  width: 1400px;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.searchbar {
+  background-color: rgb(31, 82, 111);
+  height:50px;
+  width:70%;
+  border-radius: 0px;
+  position: relative;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.login-link {
+  margin: 0 auto;
+  position: absolute;
+  top: 70px;
+  left: 1090px;
+}
+
+.build-container {
+  color: white;
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+  padding-top:90px;
+  line-height: 1.5em;
+}
+
+.dark-background {
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+#collaboration a {
+  text-decoration: none;
+  color: white;
+}
+
+.collab-img {
+  height: auto;
+  width: 450px;
+  position: absolute;
+  left: 200px;
+  top: 520px
+}
+
+.collab-text {
+  float: right;
+  margin: 0 auto;
+  width: 45%;
+  text-align: left;
+}
+
+.collab-text ul {
+  line-height: 2.5em;
+}
+
+.collab-text-p {
+  line-height: 3em;
+}
+
+.collab-container {
+  margin: 0 auto;
+  padding-top: 70px;
+  width: 1100px;
+  height: 320px;
+}
+
+.link-btn-collab {
+  font-size: 18px;
+  background-color: rgb(203, 56, 55);
+  text-align: center;
+  padding: 8px 30px;
+  border-radius: 20px;
+}
+
+.link-btn-header {
+  font-size: 18px;
+  background-color: rgb(240, 146, 51);
+  text-align: center;
+  padding: 8px 30px;
+  border-radius: 20px;
+  position: absolute;
+  top: 320px;
+}
+
+#about-npm {
+  height: 450px;
+  background-image: URL("images/forklift.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#about-npm .text-p {
+  line-height: 1.5em;
+}
+
+.link-btn-about {
+  font-size: 18px;
+  background-color: rgb(49, 68, 88);
+  text-align: center;
+  padding: 8px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 35px;
+}
+
+.about-container {
+  position: relative;
+  left: 200px;
+  top: 120px;
+}
+
+.blocks-container {
+  padding-top: 70px;
+  text-align: center;
+  color: rgb(83, 88, 98);
+  line-height: 3em;
+  height: 150px;
+  background-color: white;
+}
+
+#benefits .container {
+  position: relative;
+  bottom: 40px;
+  color: rgb(135, 145, 156);
+}
+
+#benefits .text {
+ font-weight: lighter;
+ margin: 20px 0;
+ text-align: center;
+ color: rgb(135, 145, 156);
+}
+
+.col {
+  float: left;
+  width: 33%;
+}
+
+.link-benefits {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+#benefits .img {
+  padding-left: 150px;
+  padding-bottom: 10px;
+}
